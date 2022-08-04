@@ -6,6 +6,7 @@ public class PrimeiroPrograma {
     public static void main(String[] args) {
         //Criando a classe
         Gato gato = new Gato();
+        System.out.println(gato);
 
     }
 }
