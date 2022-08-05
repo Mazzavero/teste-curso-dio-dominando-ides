@@ -18,11 +18,11 @@ public class ParImpar {
         do{
             System.out.println("Digite um número");
             numero = scann.nextInt();
-            count =  count + 1;
+            count++;
             if((numero % 2) == 0){
-                npar = npar +1;
+                npar++;
             }else{
-                nimpar = nimpar + 1 ;
+                nimpar++ ;
             }
 
 
